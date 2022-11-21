@@ -1,7 +1,0 @@
-{
-    "Resources": {
-        "TemplatedBucket": {
-            "Type": "AWS::S3::Bucket"
-        }
-    }
-}
