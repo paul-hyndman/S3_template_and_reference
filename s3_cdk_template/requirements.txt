@@ -1,0 +1,6 @@
+aws-cdk.core
+aws-cdk.aws_s3
+aws-cdk.aws_s3_notifications
+aws-cdk.cloudformation_include
+aws_cdk.aws_sns
+aws_cdk.aws_sns_subscriptions
