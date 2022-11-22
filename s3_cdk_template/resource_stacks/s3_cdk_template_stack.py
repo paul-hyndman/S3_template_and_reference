@@ -28,6 +28,7 @@ class S3CdkTemplateStack(core.Stack):
         arn = core.Fn.get_att("TemplatedBucket", "Arn")
 
         # Get reference to created resource as a bucket using arn, but name can be used if that's known
+        # Reference must be a bucket in order to add an event notification.  That cannot be done to a template resource
         existing_bucket = _s3.Bucket.from_bucket_arn(
             self, 
             "Bucket", 
